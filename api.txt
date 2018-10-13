@@ -1,0 +1,35 @@
+Format:
+http://ip:port/{programName}/{version}/{aipName}/{parameters}
+
+
+1. Get area list
+Request:
+/getAreaList
+
+Response:
+{areas:["name":"gaoxin"] 
+}
+
+2. Get price list
+Request
+/getPriceList
+
+Response:
+{prices:["10000-12000"]
+}
+
+3. Get house list
+Request:
+getHouseSummaryList?
+areaId=
+priceRangeId=
+houseName=
+pageNumber=
+paseSize=
+
+Response:
+{houseSummaries:[
+{name:"",
+price:"",
+area:""}],
+total:""}
