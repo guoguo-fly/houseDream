@@ -1,0 +1,33 @@
+#head {
+    border: 1px solid blue;
+    background-color: aquamarine;
+    height: 100px;
+}
+
+#footer {
+    border: 1px solid blue;
+    background-color: aquamarine;
+    height: 100px;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+}
+
+#content{
+    border: 1px solid blue;
+    background-color: lightgreen;
+}
+
+#searchArea {
+    background-color: lightpink;
+    position: relative;
+    border: 1px solid red;
+    width: 500px;
+    height: 150px;
+}
+
+#listArea {
+    position: relative;
+    height: 500px;
+    border: 1px solid cadetblue;
+}
